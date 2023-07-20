@@ -1,1 +1,25 @@
 @use "../../sass/variables" as *;
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    column-gap: 10px;
+}
+.search__logo{
+    width: 80%;
+    margin-right: 20px;
+    position: relative;
+    input{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid $border-background-card;
+    padding: 10px 50px;
+    height: 40px;
+    }
+    img{
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
