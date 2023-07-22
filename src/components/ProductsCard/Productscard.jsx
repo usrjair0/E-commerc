@@ -4,7 +4,7 @@ import "./index.scss";
 const ProductsCard = ({ data }) => {
   return (
     <div className="home__card">
-      <img src={data.imgPath} alt="model" />
+      <img src={data.imgPathDetail} alt="model" />
       <div className="home__card-description">
         <p>{data.title}</p>
         <button>
