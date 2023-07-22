@@ -1,7 +1,7 @@
-import React from 'react'
-import "./index.scss"
-import { Link } from 'react-router-dom'
-import Header from '../../components/Header/Header'
+import React from 'react';
+import "./index.scss";
+import { Link } from 'react-router-dom';
+import Header from '../../components/Header/Header';
 
 const Login = () => {
   return (
@@ -14,14 +14,12 @@ const Login = () => {
             <label htmlFor='name' className='label'>Digite o seu CPF:</label> 
             <input type="text" placeholder='Nome completo' id='name' className='login__input-name'/><br/>
             <label htmlFor='name'>senha:</label>
-            <input type='password' placeholder='**********' id='name' className='login__input-password'/>
+            <input type='password' placeholder='**********' id='password' className='login__input-password'/>
           </div>
-          <button type='submit'>
-            <Link to={'./home'}>Entrar</Link>
-          </button>
+            <Link to={"./home"}><button type='submit'>Entrar</button></Link>
         </form>
     </section>
   )
 }
 
-export default Login
+export default Login;

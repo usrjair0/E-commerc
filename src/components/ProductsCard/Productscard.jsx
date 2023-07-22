@@ -1,19 +1,18 @@
-import React from 'react';
-import './index.scss';
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import "./index.scss";
 
-function Productscard({data}) {
+const ProductsCard = ({ data }) => {
   return (
-    <div className='home__card'>
-        <img src={data.imgPath} alt="model" />
-        <div className='home__card-description'>
+    <div className="home__card">
+      <img src={data.imgPath} alt="model" />
+      <div className="home__card-description">
         <p>{data.title}</p>
         <button>
-          <Link to={`./products/${data.id}`}>Comprar Look</Link>
+          <Link to={`/products/${data.id}`}>Comprar Look</Link>
         </button>
-        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Productscard
+export default ProductsCard;

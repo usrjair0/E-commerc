@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
-import {createBrowserRouter, RouterProvider,} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from './views/home/Home';
 import Login from './views/login/Login.jsx';
 import Products from './views/Products/Products';
@@ -11,20 +11,19 @@ import { PRODUCTS_MOCK } from './mock/Products.mock'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home data={PRODUCTS_MOCK}/>,
+    element: <Login />, 
   },
   {
     path: "/home",
-    element: <Login />,
-  },
-  
-  {
-    path: "/products/:productid",
-    element: <Products data={PRODUCTS_MOCK}/>,
+    element: <Home data={PRODUCTS_MOCK} />,
   },
   {
-    path: "/pay/:payid",
-    element: <Pay data={PRODUCTS_MOCK}/>,
+    path: "/products/:productId",
+    element: <Products data={PRODUCTS_MOCK} />,
+  },
+  {
+    path: "/pay/:payId",
+    element: <Pay data={PRODUCTS_MOCK} />,
   },
 ]);
 

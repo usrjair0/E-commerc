@@ -1,18 +1,20 @@
-import { useParams } from 'react-router';
+import { useParams } from 'react-router-dom';
 import ProductDetail from '../../components/ProductDetail/ProductDetail';
 import './index.scss';
 import React from 'react';
+import HeaderMenu from '../../components/HeaderMenu/HeaderMenu';
+import Search from '../../components/Search/Search';
 
-const Products = () => {
- const params = useParams()
- consol
+const Products = ({data}) => {
+  const { productId } = useParams();
+  const selectedProduct = data.find((product) => product.id == productId);
 
   return (
-    <div className='product'>
-        <HeaderMenu/>
+    <section className='product'>
+        <HeaderMenu />
         <Search />
-        <ProductDetail/>
-    </div>
+        <ProductDetail data={selectedProduct} />
+    </section>
   )
 }
 
