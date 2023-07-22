@@ -3,7 +3,7 @@ import React from 'react';
 import HeaderMenu from '../../components/HeaderMenu/HeaderMenu';
 import Search from '../../components/Search/Search'
 import Productscard from '../../components/ProductsCard/Productscard';
-import ProductDetail from '../../components/ProductDetail/ProductDetail';
+
 
 const Home = ({data}) => {
   return (
