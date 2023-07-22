@@ -10,19 +10,19 @@ import { PRODUCTS_MOCK } from './mock/Products.mock'
 
 const router = createBrowserRouter([
   {
-    path: "https://e-commerc-blue.vercel.app/",
+    path: "/",
     element: <Login />, 
   },
   {
-    path: "https://e-commerc-blue.vercel.app/home",
+    path: "/home",
     element: <Home data={PRODUCTS_MOCK} />,
   },
   {
-    path: "https://e-commerc-blue.vercel.app/products/:productId",
+    path: "/products/:productId",
     element: <Products data={PRODUCTS_MOCK} />,
   },
   {
-    path: "https://e-commerc-blue.vercel.app/pay/:payId",
+    path: "/pay/:payId",
     element: <Pay data={PRODUCTS_MOCK} />,
   },
 ]);
