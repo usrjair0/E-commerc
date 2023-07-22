@@ -7,7 +7,7 @@ const ProductDetail = ({ data }) => {
     <div className="product-detail">
       <div className="product-detail__left-side">
         <div className="product-detail__card">
-          <img src={data.imgPath} alt={data.title} />
+          <img src={`https://e-commerc-blue.vercel.app/${data.imgPath}`} alt={data.title} />
           <p>{data.title}</p>
         </div>
         <div className="product-detail__description">
