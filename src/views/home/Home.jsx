@@ -1,4 +1,3 @@
-import "./index.scss";
 import React from 'react';
 import HeaderMenu from '../../components/HeaderMenu/HeaderMenu';
 import Search from '../../components/Search/Search'
