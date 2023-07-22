@@ -5,7 +5,8 @@
   justify-content: space-around;
   height: 70vh;
   margin-top: 10vh;
-
+  margin-bottom: 100px;
+  
   &__sizes {
     display: flex;
     column-gap: 1rem;
@@ -17,17 +18,17 @@
       flex-direction: column;
       gap: 1rem;
     }
-
     button {
       background: blue;
+      color: white;
       width: 524px;
       height: 48px;
       border-radius: 6px;
       font-size: 18px;
       font-weight: 800;
+      cursor: pointer;
       border: none;
     }
-
     a {
       text-decoration: none;
       color: white;

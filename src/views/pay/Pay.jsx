@@ -43,10 +43,7 @@ const Pay = ({ data }) => {
                 <label htmlFor="credit-card">Cartão de Crédito</label>
               </div>
             </div>
-
-            <button type="submit">
-              <Link to={"/home"}>Enviar Pedido</Link>
-            </button>
+            <Link to={"/home"}><button type="submit">Enviar Pedido</button></Link>
           </form>
         </div>
         <div className="pay-detail__right-side">
