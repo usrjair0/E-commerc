@@ -1,1 +1,9 @@
-@use "../../sass/variables"
+@use "../../sass/variables";
+
+.home__products{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+}

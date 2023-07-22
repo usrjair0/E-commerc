@@ -5,25 +5,26 @@ import {createBrowserRouter, RouterProvider,} from "react-router-dom";
 import Home from './views/home/Home';
 import Login from './views/login/Login.jsx';
 import Products from './views/Products/Products';
-import App from './views/pay/Pay';
+import Pay from './views/pay/Pay';
+import { PRODUCTS_MOCK } from './mock/Products.mock'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Home data={PRODUCTS_MOCK}/>,
   },
   {
     path: "/home",
-    element: < Login/>,
+    element: <Login />,
   },
   
   {
     path: "/products/:productid",
-    element: <Products />,
+    element: <Products data={PRODUCTS_MOCK}/>,
   },
   {
     path: "/pay/:payid",
-    element: <App/>,
+    element: <Pay data={PRODUCTS_MOCK}/>,
   },
 ]);
 

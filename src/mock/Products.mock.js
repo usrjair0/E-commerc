@@ -1,8 +1,8 @@
 export const PRODUCTS_MOCK = [
     {
       id: 1,
-      imgPath: "product-1.png",
-      imgPathDetail: "../../../public/product-1.png",
+      imgPath: "product1.svg",
+      imgPathDetail: "../../../public/product1.svg",
       title: "Cropped manga curta branco | by DNC",
       price: "R$ 139,90",
       colors: ["black"],
@@ -10,8 +10,8 @@ export const PRODUCTS_MOCK = [
     },
     {
       id: 2,
-      imgPath: "product-2.png",
-      imgPathDetail: "../../../public/product-2.png",
+      imgPath: "product2.svg",
+      imgPathDetail: "../../../public/product2.svg",
       title: "Blazer Preto | by DNC",
       price: "R$ 109,90",
       colors: ["black", "red"],
@@ -19,8 +19,8 @@ export const PRODUCTS_MOCK = [
     },
     {
       id: 3,
-      imgPath: "product-3.png",
-      imgPathDetail: "../../../public/product-3.png",
+      imgPath: "product3.svg",
+      imgPathDetail: "../../../public/product3.svg",
       title: "Blazer marrom | by DNC",
       price: "R$ 159,90",
       colors: ["red", "green"],
@@ -28,8 +28,8 @@ export const PRODUCTS_MOCK = [
     },
     {
       id: 4,
-      imgPath: "product-4.png",
-      imgPathDetail: "../../../public/product-4.png",
+      imgPath: "product4.svg",
+      imgPathDetail: "../../../public/product4.svg",
       title: "Cropped manga preta |  by DNC",
       price: "R$ 189,90",
       colors: ["black", "white", "blue"],
@@ -37,8 +37,8 @@ export const PRODUCTS_MOCK = [
     },
     {
       id: 5,
-      imgPath: "product-5.png",
-      imgPathDetail: "../../../public/product-5.png",
+      imgPath: "product5.svg",
+      imgPathDetail: "../../../public/product5.svg",
       title: "Camisa bege masculino | by DNC",
       price: "R$ 79,90",
       colors: ["white", "black"],
@@ -46,8 +46,8 @@ export const PRODUCTS_MOCK = [
     },
     {
       id: 6,
-      imgPath: "product-6.png",
-      imgPathDetail: "../../../public/product-6.png",
+      imgPath: "product6.svg",
+      imgPathDetail: "../../../public/product6.svg",
       title: "Camisa manga longa bege |  by DNC",
       price: "R$ 119,90",
       colors: ["black"],
