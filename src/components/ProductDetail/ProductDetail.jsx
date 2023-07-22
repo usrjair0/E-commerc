@@ -38,6 +38,7 @@ const ProductDetail = ({ data }) => {
               style={{
                 width: "64px",
                 height: "60px",
+                border: "1px solid black",
                 borderRadius: "10px",
                 backgroundColor: color,
               }}
