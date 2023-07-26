@@ -10,7 +10,7 @@ const Home = ({data}) => {
         <HeaderMenu/>
         <Search />
         <div className="home__products">
-        {data.map((product) =>(
+        {data.map((product) =>( //o parenteses significa que estamos retornando um html
         <Productscard key={product.id} data={product}/>
         ))}
         </div>

@@ -20,9 +20,7 @@ function HeaderMenu() {
         <p>Meu carrinho</p>
         <img src={shopcart} alt="cartLogo" />
       </div>
-      
     </header>
   )
 }
-
 export default HeaderMenu

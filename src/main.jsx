@@ -6,7 +6,7 @@ import Home from './views/home/Home';
 import Login from './views/login/Login.jsx';
 import Products from './views/Products/Products';
 import Pay from './views/pay/Pay';
-import { PRODUCTS_MOCK } from './mock/Products.mock'
+import { PRODUCTS_MOCK } from './mock/Products.mock'; //forma de importar sem ser a default
 
 const router = createBrowserRouter([
   {

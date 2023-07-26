@@ -1,13 +1,13 @@
 import React from "react";
 import "./index.scss";
 import { Link } from "react-router-dom";
-
+//`https://e-commerc-blue.vercel.app/${data.imgPath}`
 const ProductDetail = ({ data }) => {
   return (
     <div className="product-detail">
       <div className="product-detail__left-side">
         <div className="product-detail__card">
-          <img src={`https://e-commerc-blue.vercel.app/${data.imgPath}`} alt={data.title} />
+          <img src={data.imgPathDetail} alt={data.title} />
           <p>{data.title}</p>
         </div>
         <div className="product-detail__description">
