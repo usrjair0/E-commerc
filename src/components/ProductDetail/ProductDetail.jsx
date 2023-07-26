@@ -32,7 +32,7 @@ const ProductDetail = ({ data }) => {
               )}
         </p>
         <div className="product-detail__cube-colors">
-          {data.colors.map((color) => (
+          {data.colors.map((color, index) => (
             <div
               style={{
                 width: "64px",
@@ -41,12 +41,13 @@ const ProductDetail = ({ data }) => {
                 borderRadius: "10px",
                 backgroundColor: color,
               }}
+              key={index}
             ></div>
           ))}
         </div>
         <p>Tamanho:</p>
         <div className="product-detail__sizes">
-          {data.sizes.map((size) => (
+          {data.sizes.map((size, index) => (
             <span
               style={{
                 width: "55px",
@@ -57,6 +58,7 @@ const ProductDetail = ({ data }) => {
                 textTransform: "uppercase",
                 textAlign: "center",
               }}
+              key={index}
             >
               {size}
             </span>
